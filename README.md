@@ -1,25 +1,17 @@
-# 懒猫云应用
+# SRK ToolBox
 
-## 开发
-```
-lzc-cli project devshell
-```
-
-进入应用容器,并且自动同步当前目录内容到容器
-然后就可以启动你的应用了,例如前端
-npm install
-npm run dev
-
+## 前期处理
+执行scripts中的脚本
 ## 构建
 ```
-lzc-cli project build -o you-awesome.lpk
+lzc-cli project build
 ```
 
 会在当前的目录下构建出一个 lpk 包。
 
 ## 安装
 ```
-lzc-cli app install you-awesome.lpk
+lzc-cli app install cloud.lazycat.app.srk-toolbox-<version>.lpk
 ```
 
 会安装在你的微服应用中,安装成功后可在懒猫微服启动器中查看!
