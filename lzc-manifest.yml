@@ -1,0 +1,13 @@
+lzc-sdk-version: 0.1
+name: SRK Toolbox
+package: cloud.lazycat.app.srk-toolbox
+version: 0.0.1
+description: 
+license: hhttp://www.apache.org/licenses/
+homepage: https://github.com/Raka-loah/SRK-Toolbox
+author: czyt
+application:
+  subdomain: srk-toolbox
+  routes:
+    - /=file:///lzcapp/pkg/content/
+
