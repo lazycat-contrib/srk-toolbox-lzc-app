@@ -1,8 +1,8 @@
 lzc-sdk-version: 0.1
 name: SRK Toolbox
 package: cloud.lazycat.app.srk-toolbox
-version: 0.0.1
-description: 
+version: 0.0.2
+description: 一个基于CyberChef的优化版本Web应用程序，用于加密、编码、压缩和数据分析，中文界面。
 license: hhttp://www.apache.org/licenses/
 homepage: https://github.com/Raka-loah/SRK-Toolbox
 author: czyt
@@ -10,4 +10,6 @@ application:
   subdomain: srk-toolbox
   routes:
     - /=file:///lzcapp/pkg/content/
-
+unsupported_platforms:
+  - ios
+  - android
